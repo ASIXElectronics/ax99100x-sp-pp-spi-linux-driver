@@ -1,20 +1,34 @@
-/* Low-level parallel-port routines for 8255-based PC-style hardware.
+/*
+ * Copyright (C) 2026 ASIX Electronics Corporation All rights reserved.
  *
- * Authors: Phil Blundell <philb@gnu.org>
- *          Tim Waugh <tim@cyberelk.demon.co.uk>
- *	    Jose Renau <renau@acm.org>
- *          David Campbell
- *          Andrea Arcangeli
+ * This software is available to you under a choice of one of two
+ * licenses.  You may choose to be licensed under the terms of the GNU
+ * General Public License (GPL) Version 2, available from the file
+ * COPYING in the main directory of this source tree, or the
+ * BSD license below:
  *
- * based on work by Grant Guenther <grant@torque.net> and Phil Blundell.
+ *     Redistribution and use in source and binary forms, with or
+ *     without modification, are permitted provided that the following
+ *     conditions are met:
  *
- * Cleaned up include files - Russell King <linux@arm.uk.linux.org>
- * DMA support - Bert De Jonghe <bert@sophis.be>
- * Many ECP bugs fixed.  Fred Barnes & Jamie Lokier, 1999
- * More PCI support now conditional on CONFIG_PCI, 03/2001, Paul G.
- * Various hacks, Fred Barnes, 04/2001
- * Updated probing logic - Adam Belay <ambx1@neo.rr.com>
- */
+ *      - Redistributions of source code must retain the above
+ *        copyright notice, this list of conditions and the following
+ *        disclaimer.
+ *
+ *      - Redistributions in binary form must reproduce the above
+ *        copyright notice, this list of conditions and the following
+ *        disclaimer in the documentation and/or other materials
+ *        provided with the distribution.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+ * BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ * ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ *
 
 /* This driver should work with any hardware that is broadly compatible
  * with that in the IBM PC.  This applies to the majority of integrated
@@ -3379,8 +3393,7 @@ static void __exit parport_pc_exit(void)
 	}
 }
 
-MODULE_AUTHOR("Phil Blundell, Tim Waugh, others");
 MODULE_DESCRIPTION("PC-style parallel port driver");
-MODULE_LICENSE("GPL");
+MODULE_LICENSE("Dual BSD/GPL");
 module_init(parport_pc_init);
 module_exit(parport_pc_exit);
