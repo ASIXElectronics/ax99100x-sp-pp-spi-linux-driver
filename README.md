@@ -81,7 +81,7 @@ Features Supported:
 Feature Configuration:
 ----------------------
 
-  AX99100 serial port:
+  AX99100x serial port:
   --------------------
 
 	This driver comes with a static array uart_99100_contxts[ ] for all the 16 ports features in the ax99100_sp.h & ax99100_sp.c file.
