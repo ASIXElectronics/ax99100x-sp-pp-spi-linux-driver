@@ -1,5 +1,25 @@
-# AX99100X Multi-Function Linux Drivers
+# ASIX AX99100A PCIe to Serial/UART/Parallel/SPI Linux driver (`ax99100x.ko`)
 
+Official ASIX AX99100A PCIe to Serial/UART/Parallel/SPI Linux driver source. (Kernel module name: `ax99100x.ko`)
+
+---
+## ASIX PCIe to Serial/UART/Parallel/SPI/GPIO I/O bridge ICs 
+- [AX99100A PCIe to Multi I/O (4S, 2S+1P, 2S+SPI, LB) Controller](https://www.asix.com.tw/en/product/Interface/PCIe_Bridge/AX99100A)
+
+### Supported AX99100A PCIe to Multi-I/O (4S, 2S+1P, 2S+SPI, LB) modes
+- 4S : PCIe to 4 serial/UART ports
+- 2S+1P : PCIe to 2 serial/UART ports + 1 parallel port
+- 2S+SPI : PCIe to 2 serial/UART ports + 1 SPI interface
+- LB : PCIe to Localbus/SRAM-like interface
+
+### Supported AX99100x PCIe to Serial/UART/Parallel/SPI Interfaces
+| IC | PCIe VEN:DEV ID | Sub VEN:DEV ID | Interface |
+|----|-------------|-------------|-----------|
+| **AX99100A, AX99100** | `125B:9100` | `1000:A000` | PCIe to Serial/UART Ports |
+| **AX99100A, AX99100** | `125B:9100` | `2000:A000` | PCIe to Parallel Ports |
+| **AX99100A, AX99100** | `125B:9100` | `6000:A000` | PCIe to SPI Interfaces |
+
+---
 ## Driver and test tool Guide
 Method1: Building deb file for installation:
 Building the Driver and application:
