@@ -2,21 +2,9 @@
 
 Official ASIX AX99100A PCIe to Serial/UART/Parallel/SPI Linux driver source. (Kernel module name: `ax99100x.ko`)
 
-## ASIX USB Ethernet ICs 
-- [ASIX USB Ethernet Chips](https://www.asix.com.tw/en/product/USBEthernet)
-
-## ASIX PCIe to Serial/UART/Parallel/SPI/GPIO I/O bridge ICs 
-- [AX99100A PCIe to Multi IO Controller](https://www.asix.com.tw/en/product/Interface/PCIe_Bridge/AX99100A)
-- [AX99100A](https://www.asix.com.tw/en/product/Interface)
-- [I/O Interface Chips](https://www.asix.com.tw/en/product/Interface)
-
 ---
 ## ASIX PCIe to Serial/UART/Parallel/SPI/GPIO I/O bridge ICs 
-- [AX99100A PCIe to Multi IO Controller](https://www.asix.com.tw/en/product/Interface/PCIe_Bridge/AX99100A)
-- [AX99100A](https://www.asix.com.tw/en/product/Interface)
-- [I/O Interface Chips](https://www.asix.com.tw/en/product/Interface)
-
-
+- [AX99100A PCIe to Multi-I/O Controller](https://www.asix.com.tw/en/product/Interface/PCIe_Bridge/AX99100A)
 
 ### Supported AX99100A PCIe to Multi-I/O (4S, 2S+1P, 2S+SPI, LB) modes
 - 4S : PCIe to 4 serial/UART ports
