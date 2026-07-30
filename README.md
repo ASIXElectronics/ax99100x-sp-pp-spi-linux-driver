@@ -13,7 +13,7 @@ Official ASIX AX99100A PCIe to Serial/UART/Parallel/SPI Linux driver source. (Ke
 - **LB** : PCIe to Localbus/SRAM-like interface
 
 ### Supported PCIe to Serial/UART/Parallel/SPI Interfaces
-| IC | PCIe VEN:DEV ID | Sub VEN:DEV ID | Interface |
+| IC | PCIe VEN:DEV ID | Sub VEN:DEV ID | Interfaces |
 |----|-------------|-------------|-----------|
 | **AX99100A, AX99100** | `125B:9100` | `1000:A000` | PCIe to Serial/UART Ports |
 | **AX99100A, AX99100** | `125B:9100` | `2000:A000` | PCIe to Parallel Ports |
