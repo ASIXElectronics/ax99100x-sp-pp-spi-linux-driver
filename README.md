@@ -7,10 +7,10 @@ Official ASIX AX99100A PCIe to Serial/UART/Parallel/SPI Linux driver source. (Ke
 - [AX99100A PCIe to Multi-I/O Controller](https://www.asix.com.tw/en/product/Interface/PCIe_Bridge/AX99100A)
 
 ### Supported PCIe to Multi-I/O (4S, 2S+1P, 2S+SPI, LB) modes
-- 4S : PCIe to 4 serial/UART ports
-- 2S+1P : PCIe to 2 serial/UART ports + 1 parallel port
-- 2S+SPI : PCIe to 2 serial/UART ports + 1 SPI interface
-- LB : PCIe to Localbus/SRAM-like interface
+- **4S** : PCIe to 4 serial/UART ports
+- **2S+1P** : PCIe to 2 serial/UART ports + 1 parallel port
+- **2S+SPI** : PCIe to 2 serial/UART ports + 1 SPI interface
+- **LB** : PCIe to Localbus/SRAM-like interface
 
 ### Supported PCIe to Serial/UART/Parallel/SPI Interfaces
 | IC | PCIe VEN:DEV ID | Sub VEN:DEV ID | Interface |
