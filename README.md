@@ -1,6 +1,6 @@
 # ASIX AX99100A PCIe to Serial/UART/Parallel/SPI Linux driver (`ax99100x.ko`)
 
-This is the official ASIX AX99100A PCIe to Serial/UART/Parallel/SPI Linux driver (Kernel module name: `ax99100x.ko`), which is suitable for various I/O interface connectivity applications such as PCIe serial/parallel cards, PCIe data acquisition (DAQ) cards, industrial computers, industrial automation equipment, measurement instrumentation equipment, medical devices, POS terminals and industrial embedded systems.
+This is the official **ASIX AX99100A PCIe to Serial/UART/Parallel/SPI Linux driver** (module name: `ax99100x.ko`), which is suitable for various I/O interface connectivity applications such as PCIe serial/parallel cards, PCIe data acquisition (DAQ) cards, industrial computers, industrial automation equipment, measurement instrumentation equipment, medical devices, POS terminals and industrial embedded systems.
 
 ---
 ## ASIX PCIe to Serial/UART/Parallel/SPI/GPIO I/O bridge ICs 
